@@ -2,7 +2,9 @@
 
 Projeto Curso
 
-Autores Kaique Lima e Israel Caio
+Autores:
+Kaique Lima Gomes 
+Israel Caio Oliveira Mendes
 
 Matéria: Aplicações Web
 Professor: Salvador Melo
@@ -21,8 +23,9 @@ Metas:
   Utilização de um sistema CRUD, com dois tipos de perfis (Administrador e Aluno), sessão de login e um banco de dados online.
   
 Funcionalidade: 
-  Na página de LOGIN, temos acesso os dois tipos de perfis e um link para cadastro de novos alunos, após feito o cadastro
+  Na página de LOGIN, temos acesso a os dois tipos de perfis e um link para cadastro de novos alunos, após feito o cadastro
   o mesmo encontra-se habilitado para efetuar o login e ter acesso a página dos cursos.
-  Efetuando login como administrador através dos dados ( email: admin@admin.com | senha: admin ), o administrador terá disponivel
-  as seguintes ferramentas de controle dados: Pesquisar, Editar, Incluir e Deletar.
+  Efetuando login como administrador através dos dados ( email: admin@admin.com | senha: admin ), o administrador terá
+  disponível as seguintes ferramentas de controle de dados: Pesquisar, Editar, Incluir e Deletar. Podendo fazer altereções
+  nos cadastros dos alunos.
   
