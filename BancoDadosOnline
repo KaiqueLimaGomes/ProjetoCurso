@@ -1,0 +1,52 @@
+	# ProjetoCurso
+Projeto Curso
+
+COMO FAZER UM BANCO DE DADOS NAS NUVENS!
+
+A 000webhost disponibiliza uma conta grátis para hospedagem do site e banco de dados!
+LINK: https://www.000webhost.com/
+
+1º PASSO
+Cria uma CONTA GRÁTIS na 000webhost, Opção de desenvolvedor.
+
+2º PASSO
+Iniciar o projeto de um site.
+
+3º PASSO
+Atualizando a versão do PHP.
+No painel do usuário, vá em configurações, Geral, Php Version e selecione a opção mais atual.
+
+4º PASSO
+Acessando o PHPMyAdmin
+No painel do usuário vá em “gerenciamento do site”, banco de dados, PhpMyAdmin.
+
+5º PASSO
+Crie um banco de dados.
+
+6º PASSO
+Crie uma tabela.
+
+7º PASSO
+No painel de usuário, vá em detalhes do site. Aqui você encontrará os dados necessários para criar um arquivo de conexão com o banco de dados.
+
+8º PASSO
+Crie um arquivo PHP com os dados para conexão com banco de dados.
+
+Exemplo:
+
+Conexao.php
+<?php
+  $nome_servidor = "localhost"; //no 000webhost permanece o “localhost”
+  $nome_usuario = "IDusuario";
+  $senha = "SuaSenha";
+  $base = "NomeDoBancoDados";
+  $conecta = new mysqli($nome_servidor, $nome_usuario, $senha, $base);
+  
+  if ($conecta->connect_error) {
+    die("<p style='color:red;'>Conexão falhou: " . $conecta->connect_error . "</p><br>");
+  }
+  echo "<p style='color:green;'>Conexão realizada com sucesso </p><br>";
+?>
+
+CONCLUSÃO
+Agora você possui um host para seu site com banco de dados e um arquivo PHP para conectar com o banco de dados.
